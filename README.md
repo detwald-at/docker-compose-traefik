@@ -18,6 +18,6 @@ networks:
 ````
 
 
-## Important
+## Usage
 
-The file **acme.json** must have **600** permissions (letsencrypt requirement). Otherwise, https won't work properly. 
+The file **acme.json** must have **600** permissions (letsencrypt requirement). Otherwise, https won't work properly.

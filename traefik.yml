@@ -1,6 +1,6 @@
 ## STATIC CONFIGURATION
 global:
-  sendAnonymousUsage: true
+  sendAnonymousUsage: false
 
 log:
   level: INFO
