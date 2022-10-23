@@ -2,7 +2,7 @@
 
 ## About
 
-Universal traefik controller for all docker-compose installations. Listens for incoming requests on http or https (port 80 or 443) and distributes it to the docker container configured for a specific domain. 
+Universal traefik controller for all docker-compose installations. Listens for incoming requests on http or https (port 80 or 443), and distributes it to the docker container configured for a specific domain. 
 
 Example docker container will be provided soon. 
 
@@ -20,4 +20,4 @@ networks:
 
 ## Important
 
-The file **acme.json** must have **600** permissions (letsencrypt requirement).
+The file **acme.json** must have **600** permissions (letsencrypt requirement). Otherwise, https won't work properly. 
